@@ -1,2 +1,13 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Force GitHub to detect C# as primary language
+*.cs linguist-language=C#
+
+# Exclude Unity material files from language stats (they use .mat, same as Mathematica)
+*.mat linguist-detectable=false
+
+# Exclude binary assets from stats
+*.fbx linguist-detectable=false
+*.png linguist-detectable=false
+*.wav linguist-detectable=false
