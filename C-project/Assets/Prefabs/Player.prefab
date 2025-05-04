@@ -50,7 +50,7 @@ GameObject:
   - component: {fileID: 8351023327133181808}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -329,13 +329,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c2977ce6bab8b341bc84d752427d4af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 10
-  sprintSpeed: 20
-  groundDrag: 5
-  jumpForce: 2
+  walkSpeed: 5
+  sprintSpeed: 10
+  groundDrag: 0
+  jumpForce: 3
   jumpCooldown: 0
-  airMultiplier: 0
-  crouchSpeed: 3
+  airMultiplier: 0.1
+  crouchSpeed: 2
   crouchYScale: 0.2
   jumpKey: 32
   sprintKey: 304
@@ -360,6 +360,7 @@ GameObject:
   - component: {fileID: 4203389720258121876}
   - component: {fileID: 6022777895463688364}
   - component: {fileID: 7886321386207243662}
+  - component: {fileID: 1390850491359356933}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -392,7 +393,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.09433961, g: 0.011703946, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -497,6 +498,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9caeeec916d7f840a0041ffdebbc0e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!45 &1390850491359356933
+Skybox:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305573295900721002}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!1 &1385223750511804954
 GameObject:
   m_ObjectHideFlags: 0
