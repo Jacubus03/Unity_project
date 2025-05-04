@@ -11,7 +11,7 @@ This project depends on the following Unity Asset Store packages:
 - [The Red Prison](https://assetstore.unity.com/packages/3d/environments/dungeons/the-red-prison-40198)
 - [Altar_HellGate_BloodPool](https://assetstore.unity.com/packages/3d/environments/fantasy/altar-hellgate-bloodpool-101442)
 
-Place packages folder in `Assets/Downloads`
+Place packages folder in `Assets/Downloads/Unity`
 
 ## What I’m Learning:
 1. Designing and implementing VR mechanics
