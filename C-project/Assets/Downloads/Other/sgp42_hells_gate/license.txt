@@ -1,0 +1,11 @@
+Model Information:
+* title:	[SGP42] Hell's gate
+* source:	https://sketchfab.com/3d-models/sgp42-hells-gate-e5c9147890364fc5baf43c0ed5236967
+* author:	One pixel man (https://sketchfab.com/gildam)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "[SGP42] Hell's gate" (https://sketchfab.com/3d-models/sgp42-hells-gate-e5c9147890364fc5baf43c0ed5236967) by One pixel man (https://sketchfab.com/gildam) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Rocky hell terrain
+* source:	https://sketchfab.com/3d-models/rocky-hell-terrain-6a4c6f4bd2f24cb1a3f63adf426b2774
+* author:	Nicothin (https://sketchfab.com/juhyt80)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Rocky hell terrain" (https://sketchfab.com/3d-models/rocky-hell-terrain-6a4c6f4bd2f24cb1a3f63adf426b2774) by Nicothin (https://sketchfab.com/juhyt80) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
