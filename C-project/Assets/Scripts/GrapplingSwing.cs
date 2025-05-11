@@ -15,11 +15,14 @@ public class GrapplingSwing : MonoBehaviour
     private Vector3 swingPoint, currentGrapplePosition;
     private SpringJoint joint;
 
+    public PlayerMovementAdvanced pm;
+
     void Update()
     {
-        print(gunTip.position);
         if (Input.GetKeyDown(swingKey)) StartSwing();
         if (Input.GetKeyUp(swingKey)) StopSwing();
+
+        print(Vector3.Distance(player.position, swingPoint));
     }
 
     private void LateUpdate()
@@ -29,6 +32,8 @@ public class GrapplingSwing : MonoBehaviour
 
     private void StartSwing()
     {
+        pm.swinging = true;
+
         RaycastHit hit;
         if (Physics.Raycast(cam.position, cam.forward, out hit, maxSwingDistance, whatIsGrappleable))
         {
@@ -39,12 +44,12 @@ public class GrapplingSwing : MonoBehaviour
 
             float distanceFromPoint = Vector3.Distance(player.position, swingPoint);
 
-            joint.maxDistance = distanceFromPoint * 0.8f;
-            joint.minDistance = distanceFromPoint * 0.25f;
+            joint.maxDistance = distanceFromPoint;
+            //joint.minDistance = distanceFromPoint * 0.25f;
 
-            joint.spring = 4.5f;
-            joint.damper = 7f;
-            joint.massScale = 4.5f;
+            joint.spring = 100f;
+            //joint.damper = 1f;
+            joint.massScale = 100f;
 
             lr.positionCount = 2;
             currentGrapplePosition = gunTip.position;
@@ -53,6 +58,8 @@ public class GrapplingSwing : MonoBehaviour
 
     void StopSwing()
     {
+        pm.swinging = false;
+
         lr.positionCount = 0;
         Destroy(joint);
     }

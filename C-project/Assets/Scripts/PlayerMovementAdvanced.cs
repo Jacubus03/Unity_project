@@ -37,7 +37,8 @@ public class PlayerMovementAdvanced : MonoBehaviour
     public float maxSlopeAngle;
     private RaycastHit slopeHit;
     private bool exitingSlope;
-    
+
+    public bool swinging = false;
 
     public Transform orientation;
 
@@ -69,6 +70,9 @@ public class PlayerMovementAdvanced : MonoBehaviour
 
     private void Update()
     {
+        if (swinging)
+            return;
+
         // ground check
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
 
