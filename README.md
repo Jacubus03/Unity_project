@@ -7,7 +7,6 @@ A VR arcade-style endless runner developed in Unity, where the player uses only 
 ## Required Assets (Not Included)
 
 This project depends on the following Unity Asset Store packages:
-- [Campfires & Torches Models and FX!](https://assetstore.unity.com/packages/3d/environments/campfires-torches-models-and-fx-242552)
 - [The Red Prison](https://assetstore.unity.com/packages/3d/environments/dungeons/the-red-prison-40198)
 - [Altar_HellGate_BloodPool](https://assetstore.unity.com/packages/3d/environments/fantasy/altar-hellgate-bloodpool-101442)
 
